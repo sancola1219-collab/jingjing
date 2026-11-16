@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3ecdd">
+<title>周京京｜教古代文学的人</title>
+<meta name="description" content="我是周京京，在艺术学院教中国古代文学和古代汉语。从先秦讲到近代，带学生读诗词、古文、小说、戏曲。">
+<meta property="og:title" content="周京京｜教古代文学的人">
+<meta property="og:description" content="从《诗经》讲到《红楼梦》。进来翻一翻文学史，顺便对两句诗。">
+<meta property="og:image" content="img/jing1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+<header class="top">
+  <a class="logo" href="#top"><i>京</i>周京京</a>
+  <nav><a href="#about">其人</a><a href="#course">其课</a><a href="#history">文学史</a><a href="#words">古今异义</a><a href="#play">小游戏</a></nav>
+</header>
+
+<!-- 卷首 -->
+<section class="hero" id="top">
+  <div class="window"><img src="img/jing1.jpg" alt="周京京的自拍，长发，穿白色外套"></div>
+  <div class="hero-text">
+    <p class="eyebrow">艺术学院 · 文化课教师</p>
+    <p class="lead">从先秦讲到近代，<br>带学生读诗词、古文、小说、戏曲。</p>
+    <p class="verse">「腹有诗书气自华」<span>苏轼《和董传留别》</span></p>
+    <p class="cta"><a class="btn red" href="#history">翻一翻文学史</a><a class="btn" href="#play">对两句诗</a></p>
+  </div>
+  <div class="name" aria-label="周京京">
+    <h1>周京京</h1>
+    <p>教古代文学的人</p>
+    <span class="seal">京京<br>之印</span>
+  </div>
+</section>
+
+<!-- 卷一 其人 -->
+<section class="about" id="about">
+  <h2><b>卷一</b>其人</h2>
+  <div class="about-row">
+    <figure class="portrait reveal"><img src="img/jing2.jpg" alt="周京京的自拍，穿白色毛衣" loading="lazy"><figcaption>下课以后</figcaption></figure>
+    <div class="prose reveal">
+      <p>我叫周京京，是一名大学老师。</p>
+      <p>我们学校是艺术学院。学生平时拿画笔、练身段、吊嗓子，到了我的课上，换成读书。</p>
+      <p>我教<strong>中国古代文学</strong>，从先秦一路讲到近代。带他们读经典作品，也把文学史的脉络理清楚：谁在前，谁在后，谁受了谁的影响。</p>
+      <p>我总觉得，学艺术的人更该读一点古人的东西。画里的留白，戏里的唱词，根都在那儿。</p>
+      <ul class="tags"><li>诗</li><li>词</li><li>古文</li><li>小说</li><li>戏曲</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 卷二 其课 -->
+<section class="course" id="course">
+  <h2><b>卷二</b>其课</h2>
+  <div class="books">
+    <article class="book reveal">
+      <span class="label">文学史课</span>
+      <h3>古代文学</h3>
+      <p>讲作家、作品和文学的发展。</p>
+      <ul>
+        <li>《诗经》《楚辞》</li>
+        <li>唐诗、宋词、元曲</li>
+        <li>四大名著</li>
+      </ul>
+      <p class="ask">这门课回答：<em>这篇东西好在哪，它从哪儿来。</em></p>
+    </article>
+    <article class="book blue reveal">
+      <span class="label">语言课</span>
+      <h3>古代汉语</h3>
+      <p>讲古文到底怎么读。</p>
+      <ul>
+        <li>字词：一个字古时候是什么意思</li>
+        <li>语法：句子为什么这样排</li>
+        <li>音韵：古人怎么押韵</li>
+      </ul>
+      <p class="ask">这门课回答：<em>这句话，究竟在说什么。</em></p>
+    </article>
+  </div>
+</section>
+
+<!-- 卷三 文学史 -->
+<section class="history" id="history">
+  <h2><b>卷三</b>文学史一条线</h2>
+  <p class="sub">点一个朝代，看那时候的人在写什么。</p>
+  <div class="tl reveal">
+    <div class="tl-tabs" id="tl-tabs" role="tablist"></div>
+    <div class="tl-panel" id="tl-panel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- 卷四 古今异义 -->
+<section class="words" id="words">
+  <h2><b>卷四</b>古今异义</h2>
+  <p class="sub">同一个字，古人和我们想的不是一回事。点一下翻过来看。</p>
+  <div class="cards" id="cards"></div>
+  <div class="daily reveal">
+    <span class="daily-tag">今日一句</span>
+    <p id="q-text" aria-live="polite"></p>
+    <p class="q-src" id="q-src"></p>
+    <button class="btn" id="q-btn" type="button">换一句</button>
+  </div>
+</section>
+
+<!-- 卷五 游戏 -->
+<section class="play" id="play">
+  <h2><b>卷五</b>课间小游戏</h2>
+  <p class="sub">不计入期末成绩，放心玩。</p>
+  <div class="games">
+    <article class="game reveal" id="g1">
+      <h3>对下句</h3>
+      <p class="stat">第 <b id="g1-n">0</b> / 10 题　答对 <b id="g1-score">0</b>　最高 <b id="g1-best">0</b></p>
+      <div class="board">
+        <p class="upper" id="g1-q">十道题，给上句，选下句。</p>
+        <p class="src" id="g1-src"></p>
+        <div class="opts" id="g1-opts"></div>
+      </div>
+      <p class="msg" id="g1-msg" aria-live="polite">答对十题，封你一个状元。</p>
+      <button class="btn red" id="g1-start" type="button">开始答题</button>
+    </article>
+
+    <article class="game reveal" id="g2">
+      <h3>作家作品连连看</h3>
+      <p class="stat">已连 <b id="g2-n">0</b> / 6　连错 <b id="g2-miss">0</b>　用时 <b id="g2-t">0</b> 秒</p>
+      <div class="board">
+        <div class="match" id="g2-board"><p class="hint">左边点作家，右边点他的作品。六对全连上就过关。</p></div>
+      </div>
+      <p class="msg" id="g2-msg" aria-live="polite">看谁连得快，还不连错。</p>
+      <button class="btn red" id="g2-start" type="button">开始连线</button>
+    </article>
+  </div>
+</section>
+
+<footer class="foot">
+  <p class="big">开卷有益</p>
+  <p>有空的时候，读一首诗。</p>
+  <p class="small">© <span id="year"></span> 周京京</p>
+</footer>
+
+<button class="music" id="music" type="button" aria-label="播放背景音乐" aria-pressed="false"><span>乐</span></button>
+<audio id="bgm" src="audio/study.mp3" loop preload="auto"></audio>
+
+<script src="main.js?v=1" defer></script>
+<script src="games.js?v=1" defer></script>
+</body>
+</html>
